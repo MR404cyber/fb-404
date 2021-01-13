@@ -80,7 +80,7 @@ def menu():
 		try:
 			send=json.loads(sesion.get(_uurl_.format(f"me?access_token={see}")).text)
 			send["name"]
-			id.clear() ; live.clear() ; chek.clear() ; bersih() ; ingfo() ; echo(logo)
+			id.clear() ; live.clear() ; chek.clear() ; bersih() ; ingfo() ; echo("Author=Raihan")
 			echo(f"[+] Id   : {send['id']}")
 			echo(f"[+] Nama : {send['name']}")
 			echo(garis)
