@@ -272,7 +272,7 @@ class contents:
 				send_message=sesion.post(self.listcontents15[1],data=self.listcontents15[2],headers=hed).text
 				if "Success" in send_message:echo(f"[+] Success Sending To  > {self.code08}")
 				else:break
-			echo(f"{garis}\n[=] Done Bro, Jangan Lupa Subscribe Channel Kang Pacman") ; waktu(1) ; os.system("xdg-open https://m.youtube.com/channel/UCpu4v7TEoQ_fSsIXYl_Y7Ow") ; waktu(2) ; out("")
+			echo(f"{garis}\n[=] Done Bro, Jangan Lupa Subscribe Channel MR.404") ; waktu(1) ; os.system("xdg-open https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q") ; waktu(2) ; out("")
 		except requests.exceptions.ReadTimeout:out(f"{merah}[!] Bad Connection")
 		except requests.exceptions.ConnectionError:out(f"{merah}[!] Bad Connection")
 		except (KeyboardInterrupt,EOFError):out(f"{merah}[!] Exit")
