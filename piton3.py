@@ -32,8 +32,11 @@ def ingfo():
 	except FileNotFoundError:echo(f"\n\n\n{putih}Jika Tidak Mendapatkan Hasil\nCoba Hubungkan/Gunakan VPN\nSegala Resiko Di Tanggung Sendiri!!!") ; waktu(2) ; echo("1") ; waktu(1) ; echo("2") ; waktu(1) ; echo("3") ; waktu(1) ; echo("Mohon Tunggu, Sedang Membuka Menu...") ; waktu(3) ; open(".bukan_Apa_Apa","w").write("Bukan Apa Apa:v") ; bersih()
 def milih():
 	bersih()
-	echo("MR.404")
-	echo("[01] Login With Token")
+	echo("+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+")
+        echo("Author:MR.404/RAIHAN")
+	echo("Youtube:MR.404")
+        echo("+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+")
+        echo("[01] Login With Token")
 	echo("[02] Login With Cookie")
 	echo("[03] Spam Sms")
 	echo("[00] Exite")
