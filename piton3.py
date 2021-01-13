@@ -33,7 +33,7 @@ def ingfo():
 def milih():
 	bersih()
 	echo("+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+")
-        echo("Author:MR.404/RAIHAN")
+        echo("Author:RAIHAN")
 	echo("Youtube:MR.404")
         echo("+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+")
         echo("[01] Login With Token")
